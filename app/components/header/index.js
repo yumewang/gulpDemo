@@ -11,7 +11,7 @@ export default React.createClass({
 
         return (
             <header className={headerClass}>
-                <strong>Dough11111</strong>
+                <strong>GulpDemo</strong>
 
                 <dfn className={subtitleClass}>
                     Starter Project for React, Redux, React-Router, SASS, Gulp + Browserify
