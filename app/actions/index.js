@@ -1,6 +1,34 @@
 'use-strict';
 
 import 'whatwg-fetch';
+import * as types from '../constants/ActionTypes';
+
+export function addMessage(message) {
+  return {
+    type: types.ADD_MESSAGE,
+    message
+  };
+}
+
+export function receiveMessage(message) {
+  return {
+    type: types.RECEIVE_MESSAGE,
+    message
+  };
+}
+
+// export function createMessage(message) {
+//   return dispatch => {
+//     dispatch(addMessage(message))
+//     return fetch('/api/newmessage', {
+//       method: 'post',
+//       headers: {
+//         'Content-Type': 'application/json'
+//       },
+//       body: JSON.stringify(message)})
+//       .catch(error => {throw error});
+//   }
+// }
 
 export function addToList(id) {
     return {

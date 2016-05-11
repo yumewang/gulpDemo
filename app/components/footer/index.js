@@ -10,11 +10,6 @@ const Footer = React.createClass({
 
         return (
             <footer className={ footerClass }>
-                MIT license with images provided by the Giphy API
-                - <a className={ footerLinkClass }
-                     href='https://github.com/meanJim/dough'>
-                    Clone me on Github
-                </a>
             </footer>
         );
     }

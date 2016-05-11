@@ -12,16 +12,8 @@ export default React.createClass({
         return (
             <nav className={ navigationClass }>
                 <Link className={ navigationLinkClass }
-                      to="/i-love-kathy">
-                      View 404
-                </Link>
-                <Link className={ navigationLinkClass }
-                      to="/">
-                      View Giphy Feed
-                </Link>
-                <Link className={ navigationLinkClass }
-                      to="/your-cards">
-                      View Your Picks
+                      to="/chat">
+                      chat
                 </Link>
             </nav>
         );

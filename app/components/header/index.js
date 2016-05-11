@@ -11,13 +11,12 @@ export default React.createClass({
 
         return (
             <header className={headerClass}>
-                <strong>GulpDemo</strong>
+                <strong>GulpDemo-chat</strong>
 
                 <dfn className={subtitleClass}>
                     Starter Project for React, Redux, React-Router, SASS, Gulp + Browserify
                 </dfn>
 
-                <Navigation />
             </header>
         );
     }
