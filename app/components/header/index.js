@@ -14,7 +14,7 @@ export default React.createClass({
                 <strong>GulpDemo-chat</strong>
 
                 <dfn className={subtitleClass}>
-                    Starter Project for React, Redux, React-Router, SASS, Gulp + Browserify
+                    Starter Project for React, Redux, React-Router, SASS, Gulp + Browserify, Socket.IO
                 </dfn>
 
             </header>

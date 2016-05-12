@@ -2,9 +2,11 @@
 import React, { Component, PropTypes } from 'react';
 import { connect } from 'react-redux';
 import { bindActionCreators } from 'redux';
+import io from 'socket.io-client';
 import Chat from '../components/Chat';
 import * as actions from '../actions/index';
 
+const socket = io('http://localhost:3002');
 class ChatContainer extends Component {
   componentWillMount() {
     const { user, failure } = this.props;
@@ -12,7 +14,7 @@ class ChatContainer extends Component {
 
   render() {
     return (
-      <Chat {...this.props} />
+      <Chat {...this.props} socket={socket} />
     )
   }
 }
@@ -25,7 +27,6 @@ ChatContainer.propTypes = {
 }
 
 function mapStateToProps(state) {
-  console.log(state);
   return {
     messages: state.messages,
     user: state.user.user,

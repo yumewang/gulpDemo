@@ -12,6 +12,13 @@ npm install
 npm start
 ```
 
+And then start socket.io server:
+```sh
+node app
+```
+
+We can use socket.io to get/send message.
+
 ## Toolchain
 
 tool | reasoning

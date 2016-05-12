@@ -1,7 +1,6 @@
 'use-strict';
 import * as types from '../constants/ActionTypes';
 
-console.log('1');
 const initialState = {
   loaded: false,
   data: [{
@@ -15,7 +14,6 @@ const initialState = {
 };
 
 export function messages(state = initialState, action) {
-  console.log('13')
   switch (action.type) {
     case types.ADD_MESSAGE:
       return {...state,

@@ -3,6 +3,7 @@
 import React, { Component, PropTypes } from 'react';
 import MessageList from './MessageList';
 import * as actions from '../../actions/index';
+import * as userAtions from '../../actions/user';
 
 export default class Chat extends Component {
   constructor(props) {
@@ -10,6 +11,16 @@ export default class Chat extends Component {
     this.state = {
       targetedUser: 'GOODMan'
     }
+  }
+  componentDidMount(){
+    const { socket, user, dispatch } = this.props;
+    socket.emit('chat mounted', user);
+    socket.on('receive socket', socketID =>
+      dispatch(userAtions.receiveSocket(socketID))
+    );
+    socket.on('new message', message =>
+      dispatch(actions.receiveMessage(message))
+    );
   }
   componentDidUpdate() {
     const messageList = this.refs.messageList;
@@ -23,7 +34,7 @@ export default class Chat extends Component {
 
     // if the text is blank, do nothing
     if (text === '') return;
-    const { user, dispatch } = this.props;
+    const { socket, user, dispatch } = this.props;
     let message = {
       id: randomInt(1, 1000),
       username: user.username,
@@ -31,20 +42,10 @@ export default class Chat extends Component {
       type: '1',
       time: '2016-08-01'
     }
+    
+    socket.emit('add message', user);
     // dispatch(actions.createMessage(newMessage));
     dispatch(actions.addMessage(message));
-
-    // TODO
-    let receiveMessage = {
-      id: randomInt(1, 1000),
-      username: 'Default',
-      text: 'I am a Rabit.',
-      type: '2',
-      time: '2016-08-02'
-    }
-
-    setTimeout(function(){ dispatch(actions.receiveMessage(receiveMessage)); }, 500);
-    
 
     function randomInt (low, high) {
       return Math.floor(Math.random() * (high - low) + low);
@@ -76,5 +77,6 @@ export default class Chat extends Component {
 Chat.propTypes = {
   messages: PropTypes.object.isRequired,
   user: PropTypes.object.isRequired,
+  socket: PropTypes.object.isRequired,
   dispatch: PropTypes.func.isRequired
 }

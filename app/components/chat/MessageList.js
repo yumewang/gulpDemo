@@ -7,7 +7,6 @@ export default class MessageList extends Component {
 
   render() {
     const { message } = this.props;
-    console.log(message)
     const messageItemClass = classNames({
       'list-group-item': true,
       'text-left': message.type === '1',
