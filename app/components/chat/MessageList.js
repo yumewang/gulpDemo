@@ -4,7 +4,6 @@ import React, { PropTypes, Component } from 'react';
 import classNames from 'classnames';
 
 export default class MessageList extends Component {
-
   render() {
     const { message } = this.props;
     const messageItemClass = classNames({
@@ -14,8 +13,11 @@ export default class MessageList extends Component {
     });
     return (
       <li key={`message_${message.id}`} className={messageItemClass} >
-        <b>{message.id}-{message.username} - {message.time}</b>
-        <p>{message.text}</p>
+        <img src={`../../images/book${message.type === '1' ? '5' : '1'}.jpg`} className='avatar' />
+        <div>
+          <b>{message.id}-{message.username} - {message.time}</b>
+          <p>{message.text}</p>
+        </div>
       </li>
     )
   }
