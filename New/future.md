@@ -11,6 +11,12 @@
 * [2016年Web前端面试题目汇总](https://github.com/zhangguixu/sourcecode/blob/master/blog/interview/10.md)
 * [2016年Web前端面试题目](http://ms.csdn.net/geek/62646)
 
+## Running Reading Dreaming
+
+* [An Unexpected Ass Kicking](http://impossiblehq.com/an-unexpected-ass-kicking/)
+  - Nothing is withheld from us which we have conceived to do.
+  - Do things that have never been done.
+
 ## HTML
 
 * 每个HTML文件里开头都有个很重要的东西，Doctype，知道这是干什么的吗？
