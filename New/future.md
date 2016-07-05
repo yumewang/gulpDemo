@@ -2,7 +2,7 @@
 
 ## 参考资料
 
-*[Web前端程序员简历模板](https://github.com/geekcompany/ResumeSample/blob/master/web.md)
+* [Web前端程序员简历模板](https://github.com/geekcompany/ResumeSample/blob/master/web.md)
 * [The-Key-of-Frontend-Knowledge](https://leohxj.gitbooks.io/front-end-database/content/interview/index.html)
 * [Front-end-Web-Development-Interview-Question](https://github.com/paddingme/Front-end-Web-Development-Interview-Question)
 * [github上比较有名的一个前端面试题](http://www.cnblogs.com/bugluo/archive/2012/11/09/2762423.html)
