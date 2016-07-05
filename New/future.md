@@ -2,6 +2,7 @@
 
 ## 参考资料
 
+*[Web前端程序员简历模板](https://github.com/geekcompany/ResumeSample/blob/master/web.md)
 * [The-Key-of-Frontend-Knowledge](https://leohxj.gitbooks.io/front-end-database/content/interview/index.html)
 * [Front-end-Web-Development-Interview-Question](https://github.com/paddingme/Front-end-Web-Development-Interview-Question)
 * [github上比较有名的一个前端面试题](http://www.cnblogs.com/bugluo/archive/2012/11/09/2762423.html)
@@ -11,9 +12,9 @@
 ## HTML
 
 * 每个HTML文件里开头都有个很重要的东西，Doctype，知道这是干什么的吗？
-[DOCTYPE和浏览器渲染模式](https://github.com/iamjoel/front-end-note/blob/master/detail/html/quirks-mode-and-standards-mode.md)
-[DOCTYPE 与浏览器模式分析](http://w3help.org/zh-cn/casestudies/002)
-告知浏览器文档使用哪种HTML或者XHTML规范，该标签可什么3种DTD类型，严格版本、过渡版本和基于框架的。（重点：告诉浏览器按照何种规范解析页面）
+  - [DOCTYPE和浏览器渲染模式](https://github.com/iamjoel/front-end-note/blob/master/detail/html/quirks-mode-and-standards-mode.md)
+  - [DOCTYPE 与浏览器模式分析](http://w3help.org/zh-cn/casestudies/002)
+  告知浏览器文档使用哪种HTML或者XHTML规范，该标签可什么3种DTD类型，严格版本、过渡版本和基于框架的。（重点：告诉浏览器按照何种规范解析页面）
 
 * Webkit?
 [浏览器的工作原理：新式网络浏览器幕后揭秘](http://www.html5rocks.com/zh/tutorials/internals/howbrowserswork/)
