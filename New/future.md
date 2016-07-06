@@ -2,12 +2,12 @@
 
 ## 参考资料
 
-* [(Important)Web前端程序员简历模板](https://github.com/geekcompany/ResumeSample/blob/master/web.md)
-* [(Important)面试题集合](https://leohxj.gitbooks.io/front-end-database/content/interview/interview-exercises.html)
+* [:round_pushpin:Web前端程序员简历模板](https://github.com/geekcompany/ResumeSample/blob/master/web.md)
+* [:round_pushpin:面试题集合](https://leohxj.gitbooks.io/front-end-database/content/interview/interview-exercises.html)
 * [The-Key-of-Frontend-Knowledge](https://leohxj.gitbooks.io/front-end-database/content/interview/index.html)
 * [Front-end-Web-Development-Interview-Question](https://github.com/paddingme/Front-end-Web-Development-Interview-Question)
 * [github上比较有名的一个前端面试题](http://www.cnblogs.com/bugluo/archive/2012/11/09/2762423.html)
-* [(Important)前端面试问题](http://handyxuefeng.blog.163.com/blog/static/454521722013111714040259/)
+* [:round_pushpin:前端面试问题](http://handyxuefeng.blog.163.com/blog/static/454521722013111714040259/)
 * [前端部分笔试题](http://www.w3cfuns.com/notes/12560/f61c951c84ef79c432f6d91fd6aa9314:storey-2.html)
 * [2016年Web前端面试题目汇总](https://github.com/zhangguixu/sourcecode/blob/master/blog/interview/10.md)
 * [2016年Web前端面试题目](http://ms.csdn.net/geek/62646)
