@@ -11,6 +11,7 @@
 * [2016年Web前端面试题目汇总](https://github.com/zhangguixu/sourcecode/blob/master/blog/interview/10.md)
 * [2016年Web前端面试题目](http://ms.csdn.net/geek/62646)
 * [前端工作面试常见问题](https://github.com/paddingme/Front-end-Web-Development-Interview-Question/blob/master/%E5%89%8D%E7%AB%AF%E8%AF%95%E9%A2%98/4.md)
+
 ## Running Reading Dreaming
 
 * [An Unexpected Ass Kicking](http://impossiblehq.com/an-unexpected-ass-kicking/)
@@ -233,6 +234,7 @@
   - 其他
 
 * 请说出三种减少页面加载时间的方法（加载时间指感知的时间或者实际加载时间）
+  ```html
   - 尽量减少页面中重复的HTTP请求数量
     - 比较直接的理解就是要减少调用其他页面、文件的数量。我们在使用css格式控制的时候，经常会采用background载入很多图形文件，而每个 background的图像都会产生1次HTTP请求，一般我们为了让页面生动活泼会大量使用background来加载背景图，要改善这个状况，可以采 用css的1个有用的background-position属性来加载背景图，我们将需要频繁加载的多个图片合成为1个单独的图片，需要加载时可以采用：background:url(....) no-repeat x-offset y-offset;的形式加载即可将这部分图片加载的HTTP请求缩减为1个。
 
@@ -251,7 +253,7 @@
   - 使用CDN
   - 在服务器端配置control-cache  last-modify-date
   - 在服务器配置Entity-Tag     if-none-match
-
+  ```
 
 ## CSS
 
