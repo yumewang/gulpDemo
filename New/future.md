@@ -12,6 +12,7 @@
 * [2016年Web前端面试题目汇总](https://github.com/zhangguixu/sourcecode/blob/master/blog/interview/10.md)
 * [2016年Web前端面试题目](http://ms.csdn.net/geek/62646)
 * [前端工作面试常见问题](https://github.com/paddingme/Front-end-Web-Development-Interview-Question/blob/master/%E5%89%8D%E7%AB%AF%E8%AF%95%E9%A2%98/4.md)
+* [世界各地程序员共同总结的前端面试题](https://segmentfault.com/a/1190000002513251)
 
 ## Running Reading Dreaming
 
@@ -330,12 +331,16 @@
 ## Javascript
 
 * [JavaScript面试题](https://leohxj.gitbooks.io/front-end-database/content/interview/interview-exercises-with-JavaScript.html)
+* [BAT及各大互联网公司2014前端笔试面试题--JavaScript篇](http://www.cnblogs.com/coco1s/p/4029708.html)
+* [世界各地程序员共同总结的前端面试题](https://segmentfault.com/a/1190000002513251)
 
 ## JQuery
 
 * [jQuery面试题](https://leohxj.gitbooks.io/front-end-database/content/interview/interview-exercises-with-jquery.html)
 
 ## Network
+
+* [网络相关面试题](https://leohxj.gitbooks.io/front-end-database/content/interview/interview-exercises-with-network.html)
 
 https://github.com/zhangguixu/sourcecode/blob/master/blog/interview/10.md
 https://github.com/h5bp/Front-end-Developer-Interview-Questions/tree/master/Translations/Chinese
