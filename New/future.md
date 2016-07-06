@@ -2,11 +2,12 @@
 
 ## 参考资料
 
-* [Web前端程序员简历模板](https://github.com/geekcompany/ResumeSample/blob/master/web.md)
+* [(Important)Web前端程序员简历模板](https://github.com/geekcompany/ResumeSample/blob/master/web.md)
+* [(Important)面试题集合](https://leohxj.gitbooks.io/front-end-database/content/interview/interview-exercises.html)
 * [The-Key-of-Frontend-Knowledge](https://leohxj.gitbooks.io/front-end-database/content/interview/index.html)
 * [Front-end-Web-Development-Interview-Question](https://github.com/paddingme/Front-end-Web-Development-Interview-Question)
 * [github上比较有名的一个前端面试题](http://www.cnblogs.com/bugluo/archive/2012/11/09/2762423.html)
-* [前端面试问题](http://handyxuefeng.blog.163.com/blog/static/454521722013111714040259/)
+* [(Important)前端面试问题](http://handyxuefeng.blog.163.com/blog/static/454521722013111714040259/)
 * [前端部分笔试题](http://www.w3cfuns.com/notes/12560/f61c951c84ef79c432f6d91fd6aa9314:storey-2.html)
 * [2016年Web前端面试题目汇总](https://github.com/zhangguixu/sourcecode/blob/master/blog/interview/10.md)
 * [2016年Web前端面试题目](http://ms.csdn.net/geek/62646)
@@ -17,6 +18,10 @@
 * [An Unexpected Ass Kicking](http://impossiblehq.com/an-unexpected-ass-kicking/)
   - Nothing is withheld from us which we have conceived to do.
   - Do things that have never been done.
+
+* [What's the best way to get your résumé noticed?](https://www.quora.com/Whats-the-best-way-to-get-your-r%C3%A9sum%C3%A9-noticed)
+
+* [How do I memorize faster?](https://www.quora.com/How-do-I-memorize-faster)
 
 ## HTML
 
@@ -324,11 +329,14 @@
 
 ## Javascript
 
+*[JavaScript面试题](https://leohxj.gitbooks.io/front-end-database/content/interview/interview-exercises-with-JavaScript.html)
+
 ## JQuery
+
+* [jQuery面试题](https://leohxj.gitbooks.io/front-end-database/content/interview/interview-exercises-with-jquery.html)
 
 ## Network
 
-http://handyxuefeng.blog.163.com/blog/static/454521722013111714040259/
 https://github.com/zhangguixu/sourcecode/blob/master/blog/interview/10.md
 https://github.com/h5bp/Front-end-Developer-Interview-Questions/tree/master/Translations/Chinese
 https://github.com/h5bp/Front-end-Developer-Interview-Questions#css
